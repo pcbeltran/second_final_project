@@ -1,0 +1,26 @@
+.nav {
+  margin: 1rem;
+  text-align: center;
+  display: block;
+  padding: 8px;
+  background-color: #4e4e4e;
+}
+
+.nav__link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.15s all;
+}
+
+.nav__link:visited {
+  color: white;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.nav__link:active {
+  color: rgb(153, 153, 153);
+}
